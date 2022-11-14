@@ -8,7 +8,7 @@
       }
     },
     "logLevel": {
-      "MyFunctions.MyService": "Information"
+      "MyFunctions.IMyService": "Information"
     }
   }
 }

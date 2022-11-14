@@ -14,7 +14,7 @@ namespace MyFunctions
         {
             _myService = myService;
         }
-        [FunctionName(nameof(LoggerFunction)]
+        [FunctionName(nameof(LoggerFunction))]
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             ILogger log)
